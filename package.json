@@ -1,0 +1,29 @@
+{
+  "name": "rest-server",
+  "version": "0.0.5",
+  "description": "Aplicacion Web para el control del Sisitema Integral de Aseo de Latacunga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Richard Gallardo - Oscar Toaquiza - ",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "momment": "0.0.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "robust-point-in-polygon": "^1.0.3",
+    "sequelize": "^6.5.0",
+    "uuid": "^8.3.2"
+  }
+}
